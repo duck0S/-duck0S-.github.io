@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+    background-image: url("images/4.png");
+    background-repeat: no-repeat;
+    color: antiquewhite;
+    display: flex;
+}
+
+.container {
+    width: 60%;
+    min-height: 100vh;
+
+    margin: 0 auto;
+
+    background: rgba(20, 20, 20, 0.85);
+
+    padding: 20px;
+    box-sizing: border-box;
+
+    border-radius: 5%;
+    font-family: 'Inter';
+
+    display: flex;
+    justify-content: center;
+}
+
+/*Hide scrollbar*/
+::-webkit-scrollbar {
+    display: none;
+}
+html {
+    scrollbar-width: none;
+}
+body {
+    -ms-overflow-style: none;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: xx-large;
+}
+
+.header.desc {
+    font-size: medium;
+}
